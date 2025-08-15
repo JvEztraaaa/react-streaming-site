@@ -32,29 +32,33 @@ export default function App() {
       <Navbar />
       <HeroBanner />
       
-      <h2 style={styles.sectionTitle}>Popular on StreamVerse</h2>
-      <div style={styles.cardContainer}>
-        {movies.map((movie, index) => (
-          <Card
-            key={index}
-            title={movie.title}
-            image={movie.image}
-            description={movie.description}
-          />
-        ))}
-      </div>
+      <section style={styles.section}>
+        <h2 style={styles.sectionTitle} className="sectionTitle">Popular on StreamVerse</h2>
+        <div style={styles.cardContainer} className="cardContainer">
+          {movies.map((movie, index) => (
+            <Card
+              key={index}
+              title={movie.title}
+              image={movie.image}
+              description={movie.description}
+            />
+          ))}
+        </div>
+      </section>
 
-      <h2 style={styles.sectionTitle}>Anime</h2>
-      <div style={styles.cardContainer}>
-        {anime.map((animeItem, index) => (
-          <Card
-            key={`anime-${index}`}
-            title={animeItem.title}
-            image={animeItem.image}
-            description={animeItem.description}
-          />
-        ))}
-      </div>
+      <section style={styles.section}>
+        <h2 style={styles.sectionTitle} className="sectionTitle">Anime</h2>
+        <div style={styles.cardContainer} className="cardContainer">
+          {anime.map((animeItem, index) => (
+            <Card
+              key={`anime-${index}`}
+              title={animeItem.title}
+              image={animeItem.image}
+              description={animeItem.description}
+            />
+          ))}
+        </div>
+      </section>
 
       <Footer />
     </div>
@@ -68,6 +72,10 @@ const styles = {
     color: "white",
     width: "100%",
     fontFamily: "Arial, sans-serif",
+    overflowX: "hidden",
+  },
+  section: {
+    marginBottom: "40px",
   },
   sectionTitle: {
     margin: "20px",
@@ -82,5 +90,6 @@ const styles = {
     flexWrap: "wrap",
     justifyContent: "center",
     padding: "20px",
+    gap: "10px",
   },
 };

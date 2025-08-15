@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroBanner() {
   return (
-    <div style={styles.heroContainer}>
+    <div style={styles.heroContainer} className="heroContainer">
       <div style={styles.heroBackground}>
         <img
           src="/images/hero-banner.webp"
@@ -12,17 +12,17 @@ export default function HeroBanner() {
         <div style={styles.heroOverlay}></div>
       </div>
 
-      <div style={styles.heroContent}>
-        <h1 style={styles.heroTitle}>Demon Slayer</h1>
-        <p style={styles.heroDescription}>
+      <div style={styles.heroContent} className="heroContent">
+        <h1 style={styles.heroTitle} className="heroTitle">Demon Slayer</h1>
+        <p style={styles.heroDescription} className="heroDescription">
           A young boy named Tanjiro becomes a demon slayer after his family is attacked and his sister is turned into a demon.
         </p>
-        <div style={styles.heroButtons}>
-          <button style={styles.playButton}>
+        <div style={styles.heroButtons} className="heroButtons">
+          <button style={styles.playButton} className="playButton">
             <span style={styles.playIcon}>▶</span>
             Play
           </button>
-          <button style={styles.moreInfoButton}>
+          <button style={styles.moreInfoButton} className="moreInfoButton">
             More Info
           </button>
         </div>
