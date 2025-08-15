@@ -8,7 +8,7 @@ This project is a **React-based streaming website UI** created as part of my Rea
 ![Movie Detail Page](public/images/preview2.png) <br><br>
 ![Browse Page](public/images/preview3.png) <br>
 
-📁 Built With
+📁 Built With <br>
 React — Frontend library for building UI components <br>
 Vite — Fast development environment and build tool <br>
 CSS — Styling for layout and visuals <br>
