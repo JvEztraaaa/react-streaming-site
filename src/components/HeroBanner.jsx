@@ -4,14 +4,14 @@ export default function HeroBanner() {
   return (
     <div style={styles.heroContainer}>
       <div style={styles.heroBackground}>
-        <img 
-          src="/images/hero-banner.webp" 
-          alt="Demon Slayer" 
-          style={styles.heroImage} 
+        <img
+          src="/images/hero-banner.webp"
+          alt="Demon Slayer"
+          style={styles.heroImage}
         />
         <div style={styles.heroOverlay}></div>
       </div>
-      
+
       <div style={styles.heroContent}>
         <h1 style={styles.heroTitle}>Demon Slayer</h1>
         <p style={styles.heroDescription}>
@@ -23,7 +23,7 @@ export default function HeroBanner() {
             Play
           </button>
           <button style={styles.moreInfoButton}>
-            ℹ More Info
+            More Info
           </button>
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function HeroBanner() {
 const styles = {
   heroContainer: {
     position: "relative",
-    height: "80vh",
+    height: "70vh",
     width: "100%",
     overflow: "hidden",
     marginBottom: "40px",
@@ -50,6 +50,7 @@ const styles = {
     width: "100%",
     height: "100%",
     objectFit: "cover",
+    opacity: 0.40,
   },
   heroOverlay: {
     position: "absolute",
