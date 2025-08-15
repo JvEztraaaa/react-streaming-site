@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Card({ title, image, description }) {
+export default function Card(props) {
   return (
     <div style={styles.card} className="movie-card">
-      <img src={image} alt={title} style={styles.image} />
-      <h3 style={styles.title}>{title}</h3>
-      <p style={styles.description}>{description}</p>
+      <img src={props.image} alt={props.title} style={styles.image} />
+      <h3 style={styles.title}>{props.title}</h3>
+      <p style={styles.description}>{props.description}</p>
     </div>
   );
 }
