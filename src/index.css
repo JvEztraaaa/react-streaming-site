@@ -53,6 +53,33 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Movie Card Hover Effects */
+.movie-card:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.4) !important;
+  border-color: rgba(255,255,255,0.3) !important;
+}
+
+.movie-card:hover img {
+  transform: scale(1.1) !important;
+}
+
+/* Navbar Hover Effects */
+nav ul li:hover {
+  background-color: rgba(255,255,255,0.1) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2) !important;
+}
+
+nav h1:hover {
+  transform: scale(1.05) !important;
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: all 0.3s ease;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

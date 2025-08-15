@@ -33,7 +33,7 @@ export default function App() {
 
 const styles = {
   app: {
-    backgroundColor: "#000",
+    backgroundColor: "#0a0a0a",
     minHeight: "100vh",
     color: "white",
     width: "100%",
@@ -42,10 +42,15 @@ const styles = {
   sectionTitle: {
     margin: "20px",
     fontSize: "1.5rem",
+    color: "#e0e0e0",
+    fontWeight: "600",
+    textAlign: "center",
+    textShadow: "0 2px 4px rgba(0,0,0,0.5)",
   },
   cardContainer: {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
+    padding: "20px",
   },
 };
