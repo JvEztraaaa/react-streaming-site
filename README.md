@@ -1,12 +1,16 @@
-# React + Vite
+# 🎬 React Streaming Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React-based streaming website UI** created as part of my React practice.
 
-Currently, two official plugins are available:
+## 🖼️ Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Home Page Preview](public/images/preview1.png) <br><br>
+![Movie Detail Page](public/images/preview2.png) <br><br>
+![Browse Page](public/images/preview3.png) <br>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Built With
+React — Frontend library for building UI components
+Vite — Fast development environment and build tool
+CSS — Styling for layout and visuals
+<br>
+🗓️ Completed: August 2025
